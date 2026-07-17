@@ -1,18 +1,12 @@
-import { type Card, inventory } from "./inventory.ts";
-import {
-  type CartItem,
-  submissionBad,
-  submissionDupe,
-  submissionHappy,
-} from "./submissions.ts";
+import { inventory } from "./inventory.ts";
+import { type CartItem, submissionHappy } from "./submissions.ts";
 
-function generateReceipt(inventory: Card[], cart: CartItem[]): string {
-  // TODO: Implement generateReceipt such that it returns useful information
-  return "Hello, world!";
-}
+// `inventory` is the card catalog (see inventory.ts). Each cart item's
+// `variantId` should match a variant on one of those cards; `quantity` is
+// how many of that variant to add to the order.
+//
+// TODO: turn a cart into a useful receipt, and print it below.
 
 const cart: CartItem[] = submissionHappy;
-// const cart: CartItem[] = submissionDupe;
-// const cart: CartItem[] = submissionBad;
 
-console.log(generateReceipt(inventory, cart));
+console.log(cart);

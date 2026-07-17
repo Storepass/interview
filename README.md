@@ -1,12 +1,10 @@
 # project
 
-A small take-home exercise: implement `generateReceipt` in `main.ts` so it
-turns an `inventory` (see `inventory.ts`) and a `cart` (see `submissions.ts`)
-into a useful receipt string.
+A small coding exercise: given a card inventory and a cart, produce a useful
+receipt.
 
-`main.ts` prints the receipt for a sample cart so you can check your work
-locally as you go. Swap in the other carts from `submissions.ts` (see the
-commented-out lines near the bottom of `main.ts`) to try different inputs.
+Start from `main.ts` — it has a sample cart already wired up so you can run
+it and see where things stand as you go.
 
 ## Running it
 
@@ -34,6 +32,6 @@ deno run main.ts
 
 ## Files
 
-- `main.ts` — entry point; implement `generateReceipt` here.
+- `main.ts` — start here.
 - `inventory.ts` — card catalog with variant IDs and prices.
-- `submissions.ts` — the three test carts your implementation is run against.
+- `submissions.ts` — sample cart data.

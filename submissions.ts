@@ -3,8 +3,6 @@ export interface CartItem {
   quantity: number;
 }
 
-// Three test carts the candidate's receipt function should handle.
-
 // Happy path — all valid variant IDs and quantities
 export const submissionHappy = [
   { variantId: 39429563678917, quantity: 2 },
