@@ -34,8 +34,6 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 .DS_Store
 
 # AI assistant context/config (not meant for cloned copies of this repo)
-CLAUDE.md
-AGENTS.md
 .cursor
 .cursorrules
 .windsurfrules
