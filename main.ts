@@ -9,4 +9,7 @@ import { type CartItem, submissionHappy } from "./submissions.ts";
 
 const cart: CartItem[] = submissionHappy;
 
-console.log(cart);
+console.log("inventory size: ", inventory.length);
+console.log("cart size: ", cart.length);
+
+console.log("Hello, world! Check out `@main.ts` to get started.");
